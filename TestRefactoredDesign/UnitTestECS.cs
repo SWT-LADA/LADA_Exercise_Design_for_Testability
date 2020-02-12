@@ -25,6 +25,7 @@ namespace TestRefactoredDesign
         [TestCase(5, true)]
         [TestCase(28,false)]
         [TestCase(30,false)]
+        [TestCase(22,true)]
 
         //Interaction based test: tester om uut har interageret korrekt med vores fake
         public void TestRegulate(int temp, bool res)
